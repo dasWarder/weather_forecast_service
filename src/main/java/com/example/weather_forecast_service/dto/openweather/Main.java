@@ -4,9 +4,11 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
 @JsonIgnoreProperties
-public class Main {
+public class Main implements Serializable {
 
     @JsonProperty("temp")
     private Double temp;

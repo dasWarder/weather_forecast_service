@@ -1,7 +1,3 @@
-
-
-
-
 api:
   openweather:
     key: ${OPEN_WEATHER_KEY}
