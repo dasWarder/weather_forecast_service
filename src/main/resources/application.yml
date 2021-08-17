@@ -1,0 +1,9 @@
+
+
+
+
+api:
+  openweather:
+    key: ${OPEN_WEATHER_KEY}
+  weatherstack:
+    key: ${WEATHER_STACK_KEY}
