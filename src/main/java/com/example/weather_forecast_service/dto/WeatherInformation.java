@@ -13,5 +13,5 @@ public class WeatherInformation implements Serializable {
 
     private Integer temperature;
 
-    private Integer humidity;
+    private Long humidity;
 }

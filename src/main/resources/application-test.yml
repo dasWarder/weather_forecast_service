@@ -1,8 +1,4 @@
-spring:
-  profiles:
-    active: @spring.profiles.active@
-
-api:
+test-api:
   openweather:
     key: ${OPEN_WEATHER_KEY}
   weatherstack:
